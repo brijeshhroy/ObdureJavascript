@@ -5,4 +5,4 @@ var a = prompt("Enter the number :- ");
 var b = prompt("Enter the number :- ");
 
 
-a>b ? console.log(a , " is greatest") : b > a ? console.log(b , "is greater")  : console.log("Both are equal"); 
+a>b ? console.log(a , " is greatest") : b > a ? console.log(b , "is greater")  : console.log("Both are equal");
