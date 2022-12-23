@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The appendChild() Method</h2>
+
+<ul id="myList">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
+
+<p>Click "Append" to append an item to the end of the list:</p>
+
+<button onclick="myFunction()">Append</button>
+
+<script>
+ function  myFunction() {
+
+// Create an "li" node:
+const newLi = document.createElement("li");
+newLi.id="idnew"
+//newLi.innerText = "TREEE";
+// Create a text node:
+const textToAddInLI = document.createElement("p");
+textToAddInLI.innerHTML = "hjbjjb"
+
+// Append the text node to the "li" node:
+newLi.appendChild(textToAddInLI);
+
+// Append the "li" node to the list:
+document.getElementById("myList").appendChild(newLi);
+
+document.getElementsByTagName("body")[0].appendChild(newLi);
+
+
+
+
+}
+</script>
+
+</body>
